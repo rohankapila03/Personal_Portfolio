@@ -1,0 +1,300 @@
+
+
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE =edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Portfolio by Rohan Kapila</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+    <body>
+        <div id="header" data-aos="fade-out" data-aos-duration="1000">
+            <div class="container">
+                <nav>
+                    <ul class="cont" >
+                    <p class="logo">Pesronal Portfolio Created By</p>
+                    <h1 class="logo2">Rohan Kapila</h1>        
+                    </ul>
+                    <ul id="sidemenu">
+                        <li><a href="#header" onclick="window.location.reload();">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        
+                        <i class="fa-solid fa-xmark fa-fade" id="yo1" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars fa-fade" id="yo2" onclick="openmenu()"></i>
+                </nav>
+                <div class="headertext">
+                    <p>Software Engineer + Business Undergraduate Student</p>
+                    <h1>Welcome To My Personal Portfolio</h1>
+
+                </div>
+            </div>                                                                                                              
+        </div>
+        <div id="about" data-aos="fade-out" data-aos-duration="1000">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/proph.png" class = "pp">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class = "subtitle">About Me</h1>
+                        <p id "desrciptor">My name is Rohan Kapila. I am an undergraduate Student at the University of Calgary, pursuing a Bachelor of Science in Software Engineering in conjunction with a Bachelor of Commerce in Business. My Skills in Critical & Analytical thinking, Problem resolution, leadership, Object-oriented Programming, and Software Development have given me the opportunity to create multiple projects and explore a variety of opportunities. In addition to my technical hobbies, I also enjoy physical activities, such as playing basketball, going on hikes, snowboarding, and travelling.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('projects')" >Awards</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id = "skills">
+                            <ul>
+                                <li><span>Object-Oriented Programming</span><br><p style="text-indent: 2em; font-size: 13px; font-style: italic;"  >Java, JS, C/C++, Python, HTML, CSS, React, RISC-V, C#</p></li>
+                                <li><span>Full Stack Web Development</span><br><p style="text-indent: 2em; font-size: 13px; font-style: italic;">AWS, MYSQL, HTML, CSS, JS, React, Cloudinary</p></li>
+                                <li><span>Embedded and Operating Systems</span><br><p style="text-indent: 2em; font-size: 13px; font-style: italic;" >PIC24, RealTerm, Linux, MPLAB, VSCode</p></li>
+                                <li><span>2D Game Development</span><br><p style="text-indent: 2em; font-size: 13px; font-style: italic;">C#, Unity, VSCode</p></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id = "projects">
+                            <ul>
+                                <li><span></span>Faculty of Business | Deans List - Spring 2023<br><p style="text-indent: 2em; font-size: 13px; font-style: italic;"  >AWS, Cloudinary, Python, VScode, JS, HTML, CSS, React, Terraform</p></li>
+                                <li><span>Faculty of Engineering | Deans List - 2021 to 2022</span><br><p style="text-indent: 2em; font-size: 13px; font-style: italic;">Java, Junit, MYSQL, Swing</p></li>
+                                <li><span>Alexander Rutherford Scholarship</span><br><p style="text-indent: 2em; font-size: 13px; font-style: italic;" >Python, C/C++, Java</p></li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id = "education">
+                            <ul>
+                                <li><span>Software Engineering | Bachelor of Science</span><br><p style="text-indent: 2em; font-size: 13px; font-style: italic;"  >University of Calgary | exp: May 2025</p></li>
+                                <li><span>Business | Bachelor of Commerce</span><br><p style="text-indent: 2em; font-size: 13px; font-style: italic;">University of Calgary | exp: May 2026</p></li>
+                            </ul>
+                            <di  class="resume" >
+                                <a href="images/SSR_TSRPT.pdf" class="btn2" target="_blank">University Transcript </a>
+                                <a href="images/Rohan_Kapila-Resume.2.0.pdf" class="btn22" target="_blank">Resume</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- --------services--------- -->
+        <div id="services" data-aos="fade-out" data-aos-duration="1000">
+            <div class="container">
+                <h1 class="subtitles">My Services</h1>
+                <div class="services-list">
+                    <div data-aos="fade-left" data-aos-delay ="300" data-aos-duration="1000" class="hover">
+                        <h2>Full Stack Web Development</h2>
+                        <p style="font-size: 15px;"> Full stack web development refers to the comprehensive skill set and expertise required to design, build, and maintain both the front-end and back-end components of web applications. Full stack developers are proficient in various programming languages, frameworks, and tools, allowing them to create user-friendly interfaces and robust server-side systems. They play a crucial role in ensuring the seamless functionality, security, and scalability of web applications, making them essential contributors to the development process.</p>
+                        
+                    </div>
+                    <div data-aos="fade-in" data-aos-delay ="300" data-aos-duration="1000" class="hover">
+                        <h2>2D Game Development</h2>
+                        <p style="font-size: 15px;"> 2D game development in C# and Unity is the process of creating captivating and interactive 2D video games using the Unity game engine and the C# programming language. It allows developers to craft visually stunning and engaging games by leveraging Unity's robust 2D tools and physics systems. With C# as the scripting language, developers can implement game mechanics, animations, and logic, making it a versatile and popular choice for developing a wide range of 2D games for various platforms.</p>
+                        
+                    </div>
+                    <div data-aos="fade-right" data-aos-delay ="300" data-aos-duration="1000" class="hover">
+                        <h2>OOP Applications</h2>
+                        <p style="font-size: 15px;"> Object-Oriented Programming (OOP) applications are designed to structure software using objects that encapsulate data and behavior, fostering code reusability and creating a more organized and maintainable approach to building applications.</p>
+                        
+                    </div>
+                    <div data-aos="fade-left"data-aos-delay ="300" data-aos-duration="1000" class="hover">
+                        <h2>MicroController Based Projects</h2>
+                        <p style="font-size: 15px;"> 
+                            Microcontroller-based applications leverage compact, specialized computing devices to execute tasks in various domains, from embedded systems to IoT devices. These applications are highly efficient, cost-effective, and versatile, making them ideal for projects that require precise control and resource optimization.</p>
+                        
+                    </div>
+                    <div data-aos="fade-in" data-aos-delay ="300" data-aos-duration="1000" class="hover">
+                        <h2>RISC-V Assembly</h2>
+                        <p style="font-size: 15px;">RISC-V Assembly is a low-level programming language used to write instructions for processors based on the open-source RISC-V architecture. It offers a simple and efficient way to control hardware resources, making it an attractive choice for embedded systems and custom processor designs. </p>
+                        
+                    </div>
+                    <div data-aos="fade-right" data-aos-delay ="300" data-aos-duration="1000" class="hover">
+                        <h2>Datastructures and Algorithms</h2>
+                        <p style="font-size: 15px;"> Data structures are the fundamental building blocks for organizing and storing data efficiently in computer programs, while algorithms are step-by-step procedures or methods used to manipulate and process that data. Together, data structures and algorithms are the cornerstone of computer science, enabling the development of optimized solutions for a wide range of computational problems and tasks.</p>
+                        
+                    </div>
+                    <div data-aos="fade-left" data-aos-delay ="300" data-aos-duration="1000" class="hover">
+                        <h2>MYSQL</h2>
+                        <p style="font-size: 15px;"> MySQL is an open-source relational database management system that enables the storage, retrieval, and management of data in a structured format. It is widely used in web applications and various software solutions to efficiently handle databases and perform data operations.</p>
+                        
+                    </div>
+                    <div data-aos="fade-in" data-aos-delay ="300" data-aos-duration="1000" class="hover">
+                        <h2>AWS</h2>
+                        <p style="font-size: 15px;"> AWS (Amazon Web Services) is a comprehensive and highly popular cloud computing platform that offers a wide array of cloud services, including computing power, storage, databases, machine learning, and more. It provides scalable and flexible solutions for businesses and individuals to build, deploy, and manage applications and services in the cloud.</p>
+                    </div> 
+                    <div data-aos="fade-right" data-aos-delay ="300"data-aos-duration="1000" class="hover" >
+                        <h2>UI Design</h2>
+                        <p style="font-size: 15px;"> UI (User Interface) design is the art and science of crafting the visual and interactive elements of a digital product, such as a website or mobile app, to create a user-friendly and aesthetically pleasing experience. UI designers focus on layout, typography, color schemes, and user interaction to ensure that the interface is intuitive, engaging, and efficient for users.</p>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="portfolio" data-aos="fade-out" data-aos-duration="1000">
+            <div class="container">
+                <h1 class="subtitles">My Work</h1>
+                <div class="work-list">
+                    <div class="work" data-aos="fade-left" data-aos-delay ="300" data-aos-duration="1000" >
+                        <img src="images/obit.png">
+                        <div class="layer">
+                            <h3>Obituary Generator</h3>
+                            <p>Utilized terraform (IoC) and AWS features including SSM, Polly, S3, lambda and DynamoDB in addition to Python, Javascript, HTML/CSS, React and Cloudinary to create a full stack application that generates an obituary when given a name, birth year, death year and ima</p>
+                            <a href="https://github.com/rohankapila03" style="font-style: italic; "target="_blank">Access Code <i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work" data-aos="fade-in" data-aos-delay ="300" data-aos-duration="1000" class="hover">
+                        <img src="images/1_RK50G3R8xeRtANWAkJE6Mw.png">
+                        <div class="layer">
+                            <h3>Art Mueseum Application</h3>
+                            <p>Applied database designs and SQL queries in addition to EER Diagrams and relational models to implement a python application that manages an art museums database based on user specific interactions.</p>
+                            <a href="https://github.com/rohankapila03" style="font-style: italic; "target="_blank">Access Code <i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work" data-aos="fade-right" data-aos-delay ="300" data-aos-duration="1000" class="hover">
+                        <img src="images/18_10_04_keepitfast_07@2x.png">
+                        <div class="layer">
+                            <h3>Notion Application</h3>
+                            <p>Applied HTML, CSS, JavaScript, React, and AWS features including lambda and DynamoDB to construct a full stack notion like application</p>
+                            <a href="https://github.com/rohankapila03" style="font-style: italic;  "target="_blank">Access Code <i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work2" data-aos="fade-left" data-aos-delay ="300" data-aos-duration="1000" class="hover">
+                        <img src="images/C-language-1200x720.png">
+                        <div class="layer2">
+                            <h3>Datastructures and Algorithms Implementation</h3>
+                            <p>Implemented various data structure algorithms including linear data structures, Tree structures, Vector based heaps and graph algorithms using C++, Java, and Python.</p>
+                            <a href="https://github.com/rohankapila03" style="font-style: italic; "target="_blank">Access Code <i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work2" data-aos="fade-in" data-aos-delay ="300" data-aos-duration="1000" class="hover">
+                        <img src="images/channels4_profile.png">
+                        <div class="layer2">
+                            <h3>Backend Implemnetation</h3>
+                            <p>Utilized terraform (IoC) and AWS features including SSM, Polly, S3, lambda and DynamoDB in addition to Python, Javascript, HTML/CSS, React and Cloudinary</p>
+                            <a href="https://github.com/rohankapila03" style="font-style: italic; "target="_blank">Access Code <i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work2" data-aos="fade-right" data-aos-delay ="300" data-aos-duration="1000" class="hover">
+                        <img src="images/future-of-java-programming-language.png">
+                        <div class="layer2">
+                            <h3>WildLife Rescue Scheduler Application</h3>
+                            <p>Incorporated Java, JUnit, SQL connector and Swing to implement a GUI that accesses a database to create the most optimal schedule for a wildlife rescue facility based on users demand.</p>
+                            <a href="https://github.com/rohankapila03" style="font-style: italic;" target="_blank" >Access Code <i class="fa-solid fa-link"></i></a>
+                        </div>
+                    
+                    </div>
+    </div>
+    <a href="https://github.com/rohankapila03" class="btn"target="_blank">See More <i class="fa-brands fa-github"></i> </a>
+</div>
+
+<section id='contact'>
+    <h2 class="subtitles">Contact Me</h2>
+    <form action="https://formsubmit.co/kapilarohan9@gmail.com" method="POST" style="margin-top:35px;">
+        
+
+        <input type='text' name='name' placeholder='Your Full Name'  class="input-textarea" required></input>
+        <input type='email' name="email" placeholder='Your Email' id="email2" class="input-textarea" required></input>
+        <textarea name='message' rows='7' placeholder='Your Message' class="input-textarea" required></textarea>
+        <button type='sumbit'class='button-button-primary' >Send Message</button>
+
+
+      </form>
+
+
+    <div class='container-contact__container'>
+      <div class='contactMethods'>
+        <article class='contactMethod'>
+            <i class="fa-regular fa-envelope fa-fade" id="icon"></i>
+          <h4 id="icon">Email</h4>
+          <h5>rohan.kapila@ucalgary.ca</h5>
+          <a href='mailto: rohan.kapila@ucalgary.ca' target='_blank'class='CHANGE'> Send an Email </a>
+
+        </article>
+
+
+
+        <article class='contactMethod'>
+            <i class="fa-brands fa-linkedin fa-fade" id="icon"></i>
+          <h4 id="icon">Linkedin</h4>
+          <h5>Rohan Kapila </h5>
+          <a href='https://www.linkedin.com/in/rohan-kapila/' target='_blank' class='CHANGE'>  Click Here To Connect on Linkedin</a>
+
+        </article>
+
+
+        <article class='contactMethod2'>
+            <i class="fa-solid fa-phone fa-fade" id="icon"></i>
+          <h4 id="icon">Call or Text</h4>
+          <h5>tel:+1 (587) - 968 - 1382 </h5>
+          <div class='Tlinks' >
+          <a href="tel:+1 (587) - 968 - 1382" target='_blank' class='CHANGE'>Click Here to Call</a>
+          <a href="sms:+1 (587) - 968 - 1382" target='_blank' class='CHANGE'>Click Here to Text</a>
+          </div>
+
+
+
+
+        </article>
+
+
+
+
+
+
+
+
+      </div>
+      
+
+    </div>
+  </section>
+
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link")
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab")
+                }
+                event.currentTarget.classList.add("active-link")
+                document.getElementById(tabname).classList.add("active-tab")
+            }
+
+
+        </script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init()
+            once: true;
+        </script>
+        <script src="https://kit.fontawesome.com/6e6c485cd1.js" crossorigin="anonymous"></script>
+        
+        <script>
+          var sidemenu = document.getElementById("sidemenu");
+          function openmenu(){
+            sidemenu.style.right = "0";
+            var x = document.getElementById("yo2");
+            x.style.display = "none";
+           
+           
+          }
+
+          function closemenu(){
+            sidemenu.style.right = "-200px";
+            var x = document.getElementById("yo2");
+            x.style.display = "block";
+            
+          }
+        </script>
+            
+        
+    </body>
+</html>
